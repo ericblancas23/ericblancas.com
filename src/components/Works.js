@@ -251,27 +251,27 @@ class Works extends Component {
         <div className="flex projectList">
           <TiltOrDiv browser={this.state.browser}>
             <VelocityTransitionGroup enter={{animation: 'transition.perspectiveUpIn', delay:200}} runOnMount={true}>
-              <img className="projectImg" style={{height: 400}}src = {candycrush} alt="" onClick={(e)=>{this.projectSelect('candycrush');}}/>
+              <img className="projectImg" style={{height: 350}}src = {candycrush} alt="" onClick={(e)=>{this.projectSelect('candycrush');}}/>
             </VelocityTransitionGroup>
           </TiltOrDiv>
           <TiltOrDiv browser={this.state.browser}>
             <VelocityTransitionGroup enter={{animation: 'transition.perspectiveUpIn', delay:400}} runOnMount={true}>
-              <img className="projectImg" style={{height: 400}} src = {RayTracer} alt="" onClick={(e)=>{this.projectSelect('RayTracer');}}/>
+              <img className="projectImg" style={{height: 350}} src = {RayTracer} alt="" onClick={(e)=>{this.projectSelect('RayTracer');}}/>
             </VelocityTransitionGroup>
           </TiltOrDiv>
           <TiltOrDiv browser={this.state.browser}>
             <VelocityTransitionGroup enter={{animation: 'transition.perspectiveUpIn', delay:600}} runOnMount={true}>
-              <img className="projectImg" style={{height: 400}} src = {hairschool} alt="" onClick={(e)=>{this.projectSelect('hairschool');}}/>
+              <img className="projectImg" style={{height: 350}} src = {hairschool} alt="" onClick={(e)=>{this.projectSelect('hairschool');}}/>
             </VelocityTransitionGroup>
           </TiltOrDiv>
           <TiltOrDiv browser={this.state.browser}>
             <VelocityTransitionGroup enter={{animation: 'transition.perspectiveUpIn', delay:800}} runOnMount={true}>
-              <img className="projectImg" style={{height: 400}} src = {Cobrakai} alt="" onClick={(e)=>{this.projectSelect('Cobrakai');}}/>
+              <img className="projectImg" style={{height: 350}} src = {Cobrakai} alt="" onClick={(e)=>{this.projectSelect('Cobrakai');}}/>
             </VelocityTransitionGroup>
           </TiltOrDiv>
           <TiltOrDiv browser={this.state.browser}>
             <VelocityTransitionGroup enter={{animation: 'transition.perspectiveUpIn', delay:1000}} runOnMount={true}>
-              <img className="projectImg" style={{height: 400}} src = {copWatch} alt="" onClick={(e)=>{this.projectSelect('copwatch');}}/>
+              <img className="projectImg" style={{height: 350}} src = {copWatch} alt="" onClick={(e)=>{this.projectSelect('copwatch');}}/>
             </VelocityTransitionGroup>
           </TiltOrDiv>
           <TiltOrDiv browser={this.state.browser}>

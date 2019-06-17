@@ -156,7 +156,7 @@ img{
     min-height: 100vh;
     box-sizing: border-box;
     padding: 6vh 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .projectList{
   padding: 0 12vw;
@@ -174,7 +174,7 @@ img{
 }
 
 .projectImg{
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 10px;
   overflow: hidden;
