@@ -48,7 +48,7 @@ class Home extends Component {
             </VelocityTransitionGroup>
             </div>
           <VelocityTransitionGroup enter={{animation: "slideDown", duration: 700, delay:600}} runOnMount={true}>
-            <h4 className="shortIntro">Computer Scientist | Fullstack Dev</h4>
+            <h4 className="shortIntro">Software Engineer</h4>
           </VelocityTransitionGroup>
         </div>
       </div>
